@@ -51,7 +51,7 @@ func main() {
 	node, _ = htmlquery.Query(doc, path)
 	taiin := strings.Replace(node.Data, ",", "", 1)
 
-	fmt.Printf("%v, %v, %v, %v, %v, %v, %v,, %v, %v\n", d, syuku, kei, cyou, home, fukushi, jyuu, shibou, taiin)
+	fmt.Printf("%v, %v, %v, %v, %v, %v, %v,,, %v, %v\n", d, syuku, kei, cyou, home, fukushi, jyuu, shibou, taiin)
 
 }
 
